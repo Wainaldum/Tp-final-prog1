@@ -1,0 +1,68 @@
+*{margin: 0;padding: 0;}
+header{
+    width: 70%;
+    height: 70px;
+    background: rgb(110, 250, 250);
+    margin: 0 auto;
+}
+header i{
+    margin-top: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+header .fa-less-than{
+    font-size: 0.7em;
+}
+header .fa-house{
+    margin-left: 5px;
+}
+main{
+    width: 70%;
+    height: 779px;
+    margin: 0 auto;
+    padding-top: 80px;
+    background: skyblue
+}
+#cuadrofore{
+    width: 35%;
+    height: 600px;
+    background-color: linear-gradient(145deg, #5c5c5c, #666666);
+    background: rgb(110, 250, 250);
+    margin: 0 auto;
+    top: 200px;
+    border-radius: 20px;
+    text-align: center;
+    border: 4px solid black;
+    box-shadow: 18px 18px 16px #1f1f1f,
+             -18px -18px 16px #5c5c5c;
+}
+#formulario h1{
+    padding-top: 30px;
+}
+.nombres{
+    font-size: 1.2em;
+}
+.formul{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 5px;
+    height: 20px;
+    text-align: center;
+}
+#formuli{
+    margin-left: 35%;
+    text-align: center;
+    height: 40px;
+    width: 130px;
+}
+#sistema{
+    height: 25px;
+}
+.registro{
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
