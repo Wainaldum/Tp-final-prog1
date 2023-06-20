@@ -1,0 +1,83 @@
+*{margin: 0;padding: 0;}
+header{
+    width: 70%;
+    height: 70px;
+    background: rgb(110, 250, 250);
+    margin: 0 auto;
+}
+header i{
+    margin-top: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+header .fa-less-than{
+    font-size: 0.7em;
+}
+header .fa-house{
+    margin-left: 5px;
+}
+main{
+    width: 70%;
+    height: 780px;
+    margin: 0 auto;
+    padding-top: 80px;
+    background: skyblue
+}
+#formulario h1{
+    padding-top: 30px;
+}
+#formul{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(204, 203, 203);
+    border: none;
+    margin-top: 30px;
+}
+#formula{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(204, 203, 203);
+    border: none;
+    margin-top: 20px;
+
+}
+#envio{
+    width: 70px;
+    height: 30px;
+    border: 20px;
+    margin-top: 30px;
+}
+#cuadrofor{
+    width: 30%;
+    height: 700px;
+    background-color: linear-gradient(145deg, #5c5c5c, #666666);
+    background: rgb(110, 250, 250);
+    margin: 0 auto;
+    top: 200px;
+    border-radius: 20px;
+    text-align: center;
+    border: 4px solid black;
+    box-shadow: 18px 18px 16px #1f1f1f,
+             -18px -18px 16px #5c5c5c;
+}
+.cuentain{
+    margin-left: 200px;
+    padding-top: 20px;
+}
+hr{
+    margin-top: 50px;
+}
+h2{
+    padding-top: 30px;
+}
+.pagina{
+    width: 150px;
+    height: 25px;
+    background: rgb(204, 203, 203);
+    margin-left: 35%;
+    margin-top: 25px;
+    padding-top: 15px;
+    text-decoration: none;
+    list-style: none;
+}
