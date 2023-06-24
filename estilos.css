@@ -1,8 +1,8 @@
 *{margin: 0;padding: 0;}
 header{
-    width: 70%;
+    width: 207vh;
     height: 70px;
-    background: rgb(110, 250, 250);
+    background: #87B401;;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -20,19 +20,22 @@ header .fa-house{
     margin-left: 5px;
 }
 main{
-    width: 70%;
-    height: 779px;
+    width: 207vh;
+    height: 90.6vh;
     margin: 0 auto;
-    padding-top: 80px;
-    background: skyblue
+    display: flex;
+    flex-direction: row;
+}
+#imagenw{
+    width: 50%;
+    height: 100%;
 }
 #cuadrofore{
-    width: 35%;
-    height: 600px;
+    width: 70vh;
+    height: 65vh;
     background-color: linear-gradient(145deg, #5c5c5c, #666666);
-    background: rgb(110, 250, 250);
     margin: 0 auto;
-    top: 200px;
+    margin-top: 100px;
     border-radius: 20px;
     text-align: center;
     border: 4px solid black;
@@ -47,19 +50,20 @@ main{
 }
 .formul{
     display: flex;
-    margin-left: 30%;
+    margin-left: 25vh;
     margin-top: 5px;
     height: 20px;
     text-align: center;
 }
 #formuli{
-    margin-left: 35%;
+    margin-left: 27vh;
     text-align: center;
     height: 40px;
     width: 130px;
 }
 #sistema{
     height: 25px;
+    margin-left: 2vh;
 }
 .registro{
     margin-top: 30px;
@@ -67,4 +71,5 @@ main{
     height: 30px;
     font-size: 0.9em;
     cursor: pointer;
+    background: #9ed300;
 }
