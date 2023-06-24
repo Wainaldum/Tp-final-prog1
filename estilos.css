@@ -4,6 +4,8 @@ header{
     height: 70px;
     background: rgb(110, 250, 250);
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
 }
 header i{
     margin-top: 15px;
@@ -38,7 +40,7 @@ main{
              -18px -18px 16px #5c5c5c;
 }
 #formulario h1{
-    padding-top: 30px;
+    padding-top: 40px;
 }
 .nombres{
     font-size: 1.2em;
