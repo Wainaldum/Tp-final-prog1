@@ -286,7 +286,88 @@ body{
 }
 #designers{
     width: 130vh;
-    height: 40vh;
-    background: red;
+    height: 50vh;
     margin: 0 auto;
+    margin-top: 100px;
+}
+#cara{
+    width: 130vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+    align-items: center;
+}
+.rostro{
+    width: 35vh;
+    height: 50vh;
+    background: rgb(218, 218, 218);
+}
+.rostro img{
+    width: 100%;
+    height: 80%;
+}
+.rostro h1{
+    text-align: center;
+    font-size: 2em;
+}
+.rostro p{
+    text-align: center;
+    font-size: 1.5em;
+}
+footer{
+    width: 204.8vh;
+    height: 10vh;
+    background: gray;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+footer h1{
+    margin-top: 30px;
+    margin-left: 20vh;
+}
+footer h2{
+    margin-top: 35px;
+    margin-left: 10vh;
+}
+#redess{
+    width: 40vh;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    list-style: none;
+    text-decoration: none;
+}
+.difredes{
+    background:#87B401;
+    width: 50px;
+    height: 50px;
+    margin-top: 5%;
+}
+#redess .fa-facebook-f{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: black;
+}
+#redess .fa-instagram{
+    margin-left: 12px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: black;
+}
+#redess .fa-twitter{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: black;
+}
+#redess .fa-location-dot{
+    margin-left: 13px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: black;
 }
